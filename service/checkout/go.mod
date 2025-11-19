@@ -9,7 +9,7 @@ require (
 	github.com/go-micro/plugins/v4/wrapper/trace/opentelemetry v1.1.1
 	github.com/google/uuid v1.2.0
 	github.com/pkg/errors v0.9.1
-	go-micro.dev/v5 v4.9.0
+	go-micro.dev/v4 v4.9.0
 	go.opentelemetry.io/otel v1.11.0
 	go.opentelemetry.io/otel/exporters/jaeger v1.11.0
 	go.opentelemetry.io/otel/sdk v1.11.0

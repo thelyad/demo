@@ -8,7 +8,7 @@ init:
 
 .PHONY: proto
 proto:
-	@protoc --proto_path=. --micro_out=. --go_out=:. proto/shipping.proto
+	@protoc --proto_path=. --micro_out=. --go_out=:. proto/shippingservice.proto
 	@protoc --proto_path=. --micro_out=. --go_out=:. proto/health.proto
 	
 

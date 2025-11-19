@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 
-	"go-micro.dev/v5/metadata"
+	"go-micro.dev/v4/metadata"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/exporters/jaeger"
 	"go.opentelemetry.io/otel/propagation"

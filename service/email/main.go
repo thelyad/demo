@@ -9,9 +9,9 @@ import (
 	_ "github.com/go-micro/plugins/v4/registry/kubernetes"
 	grpcs "github.com/go-micro/plugins/v4/server/grpc"
 	"github.com/go-micro/plugins/v4/wrapper/trace/opentelemetry"
-	"go-micro.dev/v5"
-	"go-micro.dev/v5/logger"
-	"go-micro.dev/v5/server"
+	"go-micro.dev/v4"
+	"go-micro.dev/v4/logger"
+	"go-micro.dev/v4/server"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/propagation"
 

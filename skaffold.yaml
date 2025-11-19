@@ -38,16 +38,16 @@ build:
 deploy:
   kubectl:
     manifests:
-      - ./infra/k8s/ad.yaml
-      - ./infra/k8s/cart.yaml
-      - ./infra/k8s/checkout.yaml
-      - ./infra/k8s/currency.yaml
-      - ./infra/k8s/email.yaml
+      - ./infra/k8s/adservice.yaml
+      - ./infra/k8s/cartservice.yaml
+      - ./infra/k8s/checkoutservice.yaml
+      - ./infra/k8s/currencyservice.yaml
+      - ./infra/k8s/emailservice.yaml
       - ./infra/k8s/frontend.yaml
-      - ./infra/k8s/payment.yaml
-      - ./infra/k8s/productcatalog.yaml
-      - ./infra/k8s/recommendation.yaml
-      - ./infra/k8s/shipping.yaml
+      - ./infra/k8s/paymentservice.yaml
+      - ./infra/k8s/productcatalogservice.yaml
+      - ./infra/k8s/recommendationservice.yaml
+      - ./infra/k8s/shippingservice.yaml
       - ./infra/k8s/gomicro.yaml
 # profiles:
 #   # "debug" profile replaces the default Dockerfile in cart with Dockerfile.debug,

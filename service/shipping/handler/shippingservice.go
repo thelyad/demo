@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"go-micro.dev/v5/logger"
+	"go-micro.dev/v4/logger"
 
 	pb "github.com/go-micro/demo/shipping/proto"
 )

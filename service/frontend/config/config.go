@@ -2,8 +2,8 @@ package config
 
 import (
 	"github.com/pkg/errors"
-	"go-micro.dev/v5/config"
-	"go-micro.dev/v5/config/source/env"
+	"go-micro.dev/v4/config"
+	"go-micro.dev/v4/config/source/env"
 )
 
 type Config struct {

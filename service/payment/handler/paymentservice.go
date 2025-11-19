@@ -6,7 +6,7 @@ import (
 
 	creditcard "github.com/durango/go-credit-card"
 	"github.com/google/uuid"
-	"go-micro.dev/v5/logger"
+	"go-micro.dev/v4/logger"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 

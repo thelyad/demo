@@ -7,7 +7,7 @@ init:
 	@go install github.com/go-micro/generator/cmd/protoc-gen-micro@latest
 .PHONY: proto
 proto:
-	@protoc --proto_path=. --micro_out=. --go_out=:. proto/recommendation.proto
+	@protoc --proto_path=. --micro_out=. --go_out=:. proto/recommendationservice.proto
 	@protoc --proto_path=. --micro_out=. --go_out=:. proto/health.proto
 	
 
